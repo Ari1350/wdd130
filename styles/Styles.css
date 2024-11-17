@@ -12,13 +12,28 @@ h1 {
         color: darkblue;
     }
 
-img {
-        width: 150px;
+main img {
+        width: 200px;
+        max-width: 840px;
         height: auto;
         border: 1px solid black;
         box-shadow: 0 0 30px gray;
     }
 
-p {
-        padding: 10px;
-    }
+p { padding: 0;}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
