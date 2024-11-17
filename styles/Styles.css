@@ -13,7 +13,6 @@ h1 {
     }
 
 main img {
-        width: 200px;
         max-width: 840px;
         height: auto;
         border: 1px solid black;
@@ -22,7 +21,7 @@ main img {
 
 p { padding: 0;}
 
-aside{
+aside img{
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
