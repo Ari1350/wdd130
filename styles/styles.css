@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav{
-    background-color: rgb(4, 24, 23);
+    background-color: darkblue;
     padding: 10px;
 }
 nav a {
@@ -10,7 +16,7 @@ nav a {
     }
 
 h1 {
-        color: rgb(18, 114, 117);
+        color: darkblue;
     }
 
 main img {
@@ -48,4 +54,13 @@ footer{
 
 main {
     max-width: 840px;
+}
+
+/* class selectors */
+.box {
+margin: 1rem;
+border: 1px solid rgb(0 0 0 / .1);
+padding: 1rem;
+background-color: #ddd;
+color: #000;
 }
