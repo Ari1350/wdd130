@@ -5,8 +5,8 @@
 }
 
 body {
-    font-size: 16px;
-    font-size: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 nav{
@@ -51,7 +51,7 @@ aside img {
 aside h2{
     position: absolute;
     top: 15px;
-	left: 135px;
+	left: 145px;
 }
 
 footer{
@@ -63,8 +63,7 @@ footer{
 main {
     max-width: 840px;
 }
-
-/* class selectors */
+/*class selectors*/
 .box {
 margin: 1rem;
 border: 1px solid rgb(0 0 0 / .1);
