@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #0D080B; 
+    --secondary-color: #815355; 
+    --accent-color: #73D2DE; 
+    --text-color: #EDEBA0; 
+    --background-color: #ED7D3A;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    padding: .5rem;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+p {
+    margin: 1rem;
+    color: var(--text-color);
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 145px;
+    color: var(--accent-color);
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid var(--primary-color);
+    text-align: center;
+    color: var(--text-color);
+}
+
+main {
+    max-width: 840px;
+    margin: 0 auto; 
+}
+
+nav.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+nav.sociallinks a img {
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%; 
+    left: 10%;
+    color: var(--text-color); 
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%; 
+    left: 10%;
+    max-width: 40%; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 15px;
+    border-radius: 8px; 
+    color: var(--primary-color); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.hero article img {
+    float: right;
+    width: 50%; 
+    height: auto;
+    margin: 0 0 10px 10px; 
+}
+
+.hero article p {
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
