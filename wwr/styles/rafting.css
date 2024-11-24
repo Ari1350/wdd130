@@ -24,7 +24,7 @@ nav a {
 }
 
 h1 {
-    color: #000;
+    color: #000000;
     padding: 80rem;
 }
 
@@ -65,8 +65,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 15px;
-    left: 145px;
-    color: var(--accent-color);
+	left: 145px;
 }
 
 footer {
@@ -115,19 +114,19 @@ a {
 
 .hero h1 {
     position: absolute;
-    top: 20%; 
-    left: 10%;
-    color: var(--text-color); 
-    background-color: rgba(0, 0, 0, 0.6); 
+    top: 2rem; 
+    left: 15rem;
+    color: #ddd; 
+    background-color: rgba(8, 8, 8, 0.6); 
     padding: 10px 20px;
     font-size: 2rem;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); 
+    text-shadow: 1px 1px 5px rgba(29, 26, 26, 0.8); 
 }
 
 .hero article {
     position: absolute;
-    bottom: 10%; 
-    left: 10%;
+    bottom: 2rem; 
+    left: 1rem;
     max-width: 40%; 
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 15px;
