@@ -5,137 +5,157 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-header img {
-    width: 50px;
-    vertical-align: middle;
-}
-
-header h1 {
-    display: inline-block;
-    margin-left: 10px;
-}
-
-nav ul.navigation {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul.navigation li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul.navigation li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    position: relative;
-    text-align: center;
-    margin: 2rem 0;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero article {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 8px;
-}
-
-.hero article img {
-    float: right;
-    margin-left: 1rem;
-    width: 200px;
-    height: auto;
-}
-
-.history {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 2rem;
-}
-
-.history img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-}
-
-.history p {
-    flex: 1;
-    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    color: #333; 
+    background-color: #f9f9f9; 
     line-height: 1.6;
 }
 
-.adventures {
+a {
+    text-decoration: none;
+    color: rgb(95, 66, 3);
+}
+
+a:hover {
+    color: rgb(240, 174, 31);
+    font-weight: bold;
+}
+
+/* Header */
+header {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fbfce7;
+    border-bottom: 2px solid #ccc;
+}
+
+.header img {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family:  Arial, sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+nav ul.navigation {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;
+}
+
+.navigation a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #b7a6d6;
+}
+
+main {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem;
+    align-items: center;
+}
+
+section img {
+    width: 200px;
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+/* history */
+.History {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+.History img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.History p {
+    max-width: 600px;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.section p{
+    text-align:left;
+}
+/* adventures */
+.adventures {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 1rem; 
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.adventures h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;  
 }
 
 .adventures figure {
-    width: 200px;
+    display: inline-block; 
+    margin: 10px;
     text-align: center;
 }
 
 .adventures img {
-    width: 100px;
-    border-radius: 8%; 
+    width: 200px;
+    height: auto; 
+    border-radius: 5px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .adventures figcaption {
-    margin-top: 0.5px;
+    margin-top: 5px;
     font-size: 0.9rem;
     font-weight: bold
 }
 
 /* Footer */
 footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ccc;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: #d7cfe6;
-    padding: 1rem;
-
 }
 
 nav.sociallinks {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav.sociallinks a img {
@@ -143,37 +163,30 @@ nav.sociallinks a img {
     height: 40px;
 }
 
-footer p {
-    font-size: 0.9rem;
-    color: #4a3c66;
-}
-
 /* Hero */
 .hero {
-    text-align: center;
-    margin: 2rem auto;
-    background-color: #ffffff;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 1.5rem;
-    max-width: 1000px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
 }
 
 .hero img {
+    display: block;
     width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+    height: auto;
 }
 
 .hero h1 {
-    color: #4a3c66;
-    margin-bottom: 1rem;
+    position: absolute;
+    max-width: 40%;
+    top: 2rem;
+    left: 1rem;
+    color: #ddd;
+    background-color: rgba(8, 8, 8, 0.6);
+    padding: 10px 20px;
     font-size: 2rem;
-}
-
-.hero p {
-    color: #666;
-    line-height: 1.8;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
 }
 
 .hero article {
@@ -196,7 +209,7 @@ footer p {
 }
 
 .hero article p {
-    line-height: 1.8;
+    line-height: 1.6;
     color: rgb(95, 66, 3);
 }
 
