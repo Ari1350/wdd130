@@ -38,7 +38,7 @@ header {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family:  Arial, sans-serif;
     text-align: center;
     color: #000;
@@ -119,8 +119,9 @@ section img {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 20px;  
+    letter-spacing: 1px;
+    margin-bottom: 20px; 
+    align-items: flex-start;
 }
 
 .adventures figure {
@@ -134,6 +135,9 @@ section img {
     height: auto; 
     border-radius: 5px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .adventures figcaption {
@@ -191,9 +195,9 @@ nav.sociallinks a img {
 
 .hero article {
     position: absolute;
-    bottom: 2rem;
-    left: 1rem;
-    max-width: 40%;
+    bottom: 1rem;
+    left: 2rem;
+    max-width: 80%;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
     border-radius: 8px;
