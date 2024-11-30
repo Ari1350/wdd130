@@ -63,6 +63,7 @@ main {
     max-width: 840px;
     margin: 0 auto;
     padding: 1rem;
+    align-items: center;
 }
 
 section img {
@@ -76,7 +77,6 @@ section img {
     justify-content: space-between; 
     gap: 1rem; 
     margin: 20px auto;
-
     max-width: 1000px;
     text-align: center;
 }
@@ -84,13 +84,11 @@ section img {
 .adventures h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
-    color: #e74c3c; 
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 20px; 
-    border-bottom: 2px solid #e74c3c;
-    display: block; 
+    margin-bottom: 20px;  
     padding-bottom: 10px;
+    align-items: center;
 }
 
 .adventures figure {
