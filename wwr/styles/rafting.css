@@ -65,7 +65,7 @@ section img {
 /* history */
 .History {
     display: flex; 
-    flex-direction: column;       
+    flex-direction: column;      
     align-items: center; 
     justify-content: center; 
     gap: 20px; 
@@ -90,12 +90,12 @@ section img {
 
 .History .p1 {
     text-align: left;
-    max-width: 40%; 
+    max-width: 50%; 
   }
   
 .History .p2 {
     text-align: right;
-    max-width: 40%; 
+    max-width: 50%; 
 }
 
 .History img {
