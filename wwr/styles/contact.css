@@ -41,11 +41,16 @@ main {
     align-items: center;
 }
 
-.map {
+p{
+    text-align: left;
+    max-width: 50%; 
+}
+
+.map iframe {
     text-align:right;
 }
 
-.employees {
+.employees img {
     display:grid;
     flex-direction: column;
     align-items: center;
