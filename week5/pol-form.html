@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viemport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Guadalupe Arias🌷 | HTML Form - User Poll </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+              <legend>Contact Information</legend>
+              <label>Full Name: <input type="text" name="Fullname"></label>
+              <label>Email: <input type="email" name="usermail"> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefos</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Santa Cruz, La Paz, Beni">
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | 🌷 Guadalupe Arias 🌷</p>
+    </footer>
+</body>
+</html>
