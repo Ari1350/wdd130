@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
     background-color: #fbfce7;
@@ -34,33 +34,67 @@ h1 {
     color: #000;
 }
 
-main {
-    max-width: 840px;
-    margin: 0 auto;
-    padding: 1rem;
-    align-items: center;
+nav ul.navigation {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;
 }
 
-p{
+.navigation a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+   
+}
+main contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main h1, main h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.information{
     text-align: left;
     max-width: 50%; 
 }
 
 .map iframe {
-    text-align:right;
+    text-align: right;
+    max-width: 50%; 
+}
+
+.employees {
+    display: grid;
+    gap: 20px; 
+    justify-items: center;
+    margin: 2rem 0;
 }
 
 .employees img {
-    display:grid;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 200px; 
-    height: auto; 
-    border-radius: 5px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    max-width: 8rem;
+    width: 100%;
+    max-width: 200px; /* Limita el ancho */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.employees figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
 }
 
 
