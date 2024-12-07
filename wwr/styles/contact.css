@@ -96,6 +96,14 @@ main h1, main h2 {
     justify-items: center;
     margin: 2rem 0;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.employees title{
+    text-align: center; 
+    font-size: 2rem; 
+    margin: 0; 
+    grid-column:1/6;
 }
 
 .employees figure{
