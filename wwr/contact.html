@@ -30,8 +30,8 @@
                    <div class="Information">
                         <h2>Company Information</h2>
                         <p> 123 Adventure Lane, Rapids City</p>
-                        <p><strong>Phone:</strong> +591 (3) 321-4567</p>
-                        <p><strong>Email:</strong> contact@riverforgeadventures.com</p>
+                        <p>+591 (3) 321-4567</p>
+                        <p>contact@riverforgeadventures.com</p>
                     </div>
                     <section class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d37251.42624455916!2d-63.20518288438952!3d-17.55018267903912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1733453822853!5m2!1ses-419!2sbo" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
@@ -52,6 +52,41 @@
                             <figcaption>Employees 3</figcaption>
                         </figure>
                 </section>
+
+                <form>
+                    <fieldset>
+                      <legend>Send Us a Message</legend>
+                      <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                      </div>
+                      <div class="form-item column2">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-item column1">
+                            <div>
+                                <label for="browser">Subject</label>
+                                <select id="browser" name="browser">
+                                    <option value="general inquiry">General Inquiry</option>
+                                    <option value="reservation question">Reservation Question</option>
+                                    <option value="website suggestion">Website Suggestion</option>
+                                </select>
+                            </div>
+                        </div>
+                      <div>
+                         <label for="feedback">Message:</label>
+                         <textarea id="feedback" name="feedback" rows="20" placeholder="Message"></textarea>
+                     </div>
+                        <div>
+                            <label for="pet">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </div>
+                    </fieldset>
+                    <button type="submit">SEND</button>
+                </form>
         </main>
         <footer>
             <nav class="sociallinks"> 
