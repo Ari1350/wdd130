@@ -55,10 +55,11 @@ main {
     text-align: center;
    
 }
-main contact{
+.contact{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 20px;
+    align-items: center; 
+    margin-bottom: 10px;
 }
 main h1, main h2 {
     margin-bottom: 1rem;
@@ -68,24 +69,43 @@ main h1, main h2 {
 
 .information{
     text-align: left;
-    max-width: 50%; 
+    max-width: 50%;
+    display: flex;
+    justify-content:center;
+    gap: 50px; 
+    flex: 1;
+}
+
+.information img{
+    width: 20px;
+    height: 20px;
 }
 
 .map iframe {
     text-align: right;
-    max-width: 50%; 
+    max-width: 85%; 
+    flex: 1;
 }
 
 .employees {
     display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
     gap: 20px; 
     justify-items: center;
     margin: 2rem 0;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.employees figure{
+    display: inline-block; 
+    margin: 10px;
+    text-align: center;
+}
 .employees img {
     width: 100%;
-    max-width: 200px; /* Limita el ancho */
+    max-width: 200px; 
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
