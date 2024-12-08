@@ -161,28 +161,38 @@ form {
 }
 
 .form-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    display: grid;
+    align-items:center;
 }
 
 .column1 {
     grid-template-columns: 1fr;
 }
 
-.form-item.column2 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+.column2 {
+    display: flex;
     gap: 1rem;
 }
 
 fieldset {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 1rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column1{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+legend{
+    padding: 0.5rem;
+    color:#047225;
+    font-size: 1.3em;
 }
 
 label, input, button, select, textarea{
@@ -190,19 +200,24 @@ label, input, button, select, textarea{
 }
 
 label {
-    font-size: 1rem;
-    margin-bottom: 0.2rem;
+    display: block;
+    margin-bottom: 0.5rem; 
 }
 
-input, select, textarea {
+input, select {
     padding: 0.5rem;
     font-size: 1.1rem;
+}
+
+textarea{
+    padding: 3rem;
+    font-size: 3rem; 
 }
 
 input[type="checkbox"]{
     width: 22px;
     height: 22px;
-    vertical-align: bottom
+    left: bottom;
 }
 
 button {
