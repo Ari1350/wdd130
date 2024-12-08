@@ -58,7 +58,7 @@
                       <legend>Send Us a Message</legend>
                       <div class="form-item column2">
                         <label for="name">Name:</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Your Name">
+                        <input type="text" id="name" name="name" placeholder="Your Name">
                         
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" placeholder="Your email address">
@@ -66,20 +66,27 @@
                     </fieldset>
                     <fieldset class="column1">
                         <div class="form-item column1">
-                            <div>
-                                <label for="browser">Subject</label>
-                                <select id="browser" name="browser">
-                                    <option value="general inquiry">General Inquiry</option>
-                                    <option value="reservation question">Reservation Question</option>
-                                    <option value="website suggestion">Website Suggestion</option>
-                                </select>
-                            </div>
+                                <legend>Please select the type of inquiry:</legend>
+                                <div class="radio-group">
+                                    <label>
+                                    <input type="radio" name="inquiryType" value="general" required>
+                                    General Inquiry
+                                    </label><br>
+                                    <label>
+                                    <input type="radio" name="inquiryType" value="reservation">
+                                    Reservation Question
+                                    </label><br>
+                                    <label>
+                                    <input type="radio" name="inquiryType" value="suggestion">
+                                    Website Suggestion
+                                    </label>
+                              </div>
                         </div>
                       <div>
                          <textarea id="feedback" name="feedback" rows="4" placeholder="Message"></textarea>
                      </div>
                         <div class="form-item column2">
-                            <label for="pet">Please subscribe me to the monthly newsletter</label>
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                             <input type="checkbox" id="subscribe" name="subscribe">
                         </div>
                     </fieldset>
@@ -97,6 +104,9 @@
                 <a href="https://instagram.com">
                   <img src="images/instagram.webp" alt="Instagram" >
                 </a>
+                <a href="https://app.moqups.com/Uu0Hq6NeCBAgQ7KwRoPoowmLbHxGJdHB/view/page/ad12de680">
+                    <img src="images/m.webp" alt="wireframe">
+                  </a>
             </nav>
             <p> ©2024 Riverforge Adventures |🌷Guadalupe Arias🌷</p>
         </footer>

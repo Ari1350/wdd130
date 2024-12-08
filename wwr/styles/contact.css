@@ -188,8 +188,23 @@ fieldset {
 .column1{
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;
 }
+
+.radio-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 2px; 
+  }
+
+  .radio-group label {
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1; 
+  }
+
+  .radio-group input[type="radio"] {
+    margin-right: 5px; 
+  }
 
 legend{
     padding: 0.5rem;
