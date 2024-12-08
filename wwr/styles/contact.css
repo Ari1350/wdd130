@@ -194,17 +194,17 @@ fieldset {
     display: flex;
     flex-direction: column; 
     gap: 2px; 
-  }
+}
 
-  .radio-group label {
+.radio-group label {
     font-size: 16px;
     cursor: pointer;
     line-height: 1; 
-  }
+}
 
-  .radio-group input[type="radio"] {
+.radio-group input[type="radio"] {
     margin-right: 5px; 
-  }
+}
 
 legend{
     padding: 0.5rem;
@@ -218,7 +218,8 @@ label, input, button, select, textarea{
 
 label {
     display: block;
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.5rem;
+     
 }
 
 input, select {
