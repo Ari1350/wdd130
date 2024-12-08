@@ -163,6 +163,7 @@ form {
 .form-item {
     display: grid;
     align-items:center;
+    justify-content: space-between;
 }
 
 .column1 {
@@ -171,7 +172,8 @@ form {
 
 .column2 {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
+    justify-content: space-around;
 }
 
 fieldset {
@@ -217,7 +219,6 @@ textarea{
 input[type="checkbox"]{
     width: 22px;
     height: 22px;
-    left: bottom;
 }
 
 button {
