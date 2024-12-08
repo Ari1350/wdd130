@@ -193,17 +193,23 @@ fieldset {
 .radio-group {
     display: flex;
     flex-direction: column; 
-    gap: 2px; 
+    gap: 8px; 
+    align-items: center;        
+    justify-content: center;     
+    text-align: center;  
 }
 
 .radio-group label {
     font-size: 16px;
     cursor: pointer;
-    line-height: 1; 
+    line-height: 1.5;
+    display: flex;
+    align-items: center; 
 }
 
 .radio-group input[type="radio"] {
-    margin-right: 5px; 
+    margin-right: 10px; 
+
 }
 
 legend{
