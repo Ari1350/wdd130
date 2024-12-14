@@ -68,7 +68,7 @@ main h1, main h2 {
 
 .hero h2 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -110,8 +110,9 @@ main h1, main h2 {
     margin: 2rem auto;
     padding: 1rem;
 }
+
 .grid-layout h2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem; 
     font-size: 2rem;
     color: #047225;
     font-weight: bold;
@@ -119,7 +120,7 @@ main h1, main h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr); 
     gap: 1.5rem;
     padding: 1rem;
     max-width: 1200px; 
@@ -131,12 +132,12 @@ main h1, main h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    text-align: left;
+    text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .grid-item:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -147,17 +148,17 @@ main h1, main h2 {
 }
 
 .grid-item h3 {
-    padding: 1rem 1rem 0.5rem; 
+    padding: 1rem 0 0.5rem;
     color: #047225;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .grid-item p {
-    padding: 0 1rem 1.5rem; 
+    padding: 0 1rem 1.5rem;
     font-size: 1rem;
     color: #555;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
 /* Contact Form */
