@@ -49,18 +49,11 @@ nav ul.navigation {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-    text-align: center;
-   
 }
-.contact{
-    display: flex;
-    gap: 20px;
-    align-items: center; 
-    margin-bottom: 10px;
-}
+
 main h1, main h2 {
     margin-bottom: 1rem;
     font-size: 1.8rem;
@@ -115,6 +108,13 @@ main h1, main h2 {
 .grid-layout {
     text-align: center;
     margin: 2rem auto;
+    padding: 1rem;
+}
+.grid-layout h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #047225;
+    font-weight: bold;
 }
 
 .grid-container {
@@ -122,6 +122,8 @@ main h1, main h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     padding: 1rem;
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .grid-item {
@@ -130,6 +132,12 @@ main h1, main h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .grid-item img {
@@ -139,15 +147,17 @@ main h1, main h2 {
 }
 
 .grid-item h3 {
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem; 
     color: #047225;
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .grid-item p {
-    padding: 0 1rem 1rem;
+    padding: 0 1rem 1.5rem; 
     font-size: 1rem;
     color: #555;
+    line-height: 1.6; 
 }
 
 /* Contact Form */
